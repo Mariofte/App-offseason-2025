@@ -1,0 +1,6 @@
+# Configuracion de el entorno
+.venv/
+.vscode/
+
+# credenciales
+service/Token.json
