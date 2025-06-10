@@ -6,9 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/sidebar.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
-        <title>{% block title %}{% endblock %}</title>
+        <title>App</title>
     {% endblock %}
 </head>
 <body>
@@ -20,7 +19,7 @@
             <a href="{{ url_for('pits') }}">Pits</a>
         </div>
         <div id="main">
-            <button onclick="openBar()">&#9776;</button>
+            <span onclick="openBar()">&#9776;</span>
         </div>
     {% endblock %}
     {# Cuerpo de la Pagina #}

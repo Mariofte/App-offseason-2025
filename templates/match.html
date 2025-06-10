@@ -1,13 +1,17 @@
 {% extends 'layout.html' %}
-{% block head %}
-    {% block title %}Match{% endblock %}
-    {{ super() }}
-{% endblock %}
-{% block sidebar %}
-    {{ super() }}
-{% endblock %}
-{% block main %}
-    <form action="{{ url_for('match') }}" method="post">
-        <p>hola match</p>
-    </form>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+        {{ super() }}
+    {% endblock %}
+</head>
+<body>
+    {% block sidebar %}
+        {{ super() }}
+    {% endblock %}
+    {% block main %}
+        <p>hola Match</p>
+    {% endblock %}
+</body>
+</html>

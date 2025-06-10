@@ -2,7 +2,7 @@ from flask import Flask, render_template, redirect, url_for, request
 from service import spread_sheet
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
-api = spread_sheet(id='')
+api = spread_sheet(id='1-w-sizFV2i0BTeEd-PzQ9oQojd3A2Y_pvm2XJ4e35z8')
 
 def page_error(error):
     return render_template('404.html'), 404

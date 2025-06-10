@@ -6,4 +6,5 @@
 service/Token.json
 
 # Cache
-service/__pycache__/
+__pycahce__/
+*pyc
