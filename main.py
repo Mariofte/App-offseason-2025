@@ -25,7 +25,7 @@ def pits():
     if request.form == 'POST':
         data = request.form.getlist('data[]')
         api.post([[data]], 2, 1)
-        return redirect(url_for('pits.html'))
+        return redirect(url_for('pits'))
     
     return render_template('pits.html', data=api.get(2))
 
