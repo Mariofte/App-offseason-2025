@@ -4,3 +4,6 @@
 
 # credenciales
 service/Token.json
+
+# Cache
+service/__pycache__/
